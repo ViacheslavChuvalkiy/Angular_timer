@@ -8,5 +8,5 @@ import {Component, Input} from '@angular/core';
 export class ButtonComponent {
   @Input() name: string | undefined;
   @Input() className: string | undefined;
-  @Input() action: string | undefined;
+  @Input() isStarted: boolean | undefined;
 }

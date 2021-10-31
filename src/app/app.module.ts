@@ -12,7 +12,7 @@ import {ButtonComponent} from  './Button/button.component';
     AppComponent,
     CounterComponent,
     CounterDisplayComponent,
-    ButtonComponent
+    ButtonComponent,
   ],
   imports: [
     BrowserModule,

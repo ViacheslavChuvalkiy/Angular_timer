@@ -1,3 +1,7 @@
+.btnStart:not(:disabled), .btnStop:not(:disabled), .btnReset:not(:disabled) {
+  cursor: pointer;
+}
+
 .btnStart {
   background: linear-gradient(229.99deg, #11DEE9 -26%, #017E8B 145%);
 }
@@ -7,3 +11,4 @@
 .btnReset {
   background: linear-gradient(229.99deg, #c63920 -26%, #017E8B 145%);
 }
+

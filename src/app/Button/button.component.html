@@ -2,7 +2,9 @@
   [class.btnStart] = "className === 'btnStart'"
   [class.btnStop] =  "className === 'btnStop'"
   [class.btnReset] = "className === 'btnReset'"
-  >
+  [value]="name"
+  [disabled]="isStarted && className === 'btnStart' || !isStarted && className === 'btnStop'"
+>
   {{name}}
 </button>
 

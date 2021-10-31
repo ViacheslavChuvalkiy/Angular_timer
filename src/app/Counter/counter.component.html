@@ -1,13 +1,14 @@
 <div class = "counterBlock">
   <app-counterDisplay
-    [timeData] = "startTimeData"></app-counterDisplay>
+    [timeData] = "timeData"></app-counterDisplay>
 
   <div class = "counterButtons">
     <app-button
       *ngFor = "let item of buttons"
       [name]="item.name"
       [className]="item.className"
-      [action]="item.action"
+      (click)= "clickBtnHandler($event)"
+      [isStarted]="isStarted"
     >
     </app-button>
   </div>
