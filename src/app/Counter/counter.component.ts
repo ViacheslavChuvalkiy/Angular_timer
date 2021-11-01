@@ -60,6 +60,7 @@ export class CounterComponent implements OnInit{
         break;
       case "Reset":
         this.btnReset();
+        this.isStarted = true;
         break;
     }
   }
